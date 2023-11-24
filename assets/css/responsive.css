@@ -1,0 +1,34 @@
+@media screen and (max-width:991px) {
+    .shape1 img, .shape2, .shape3, .shape4, .who-we-are-shape {
+        display: none;
+
+    }
+    .banner {
+        background: none;
+        background-color: #E7DDF4;
+        height: auto !important;
+        
+    }
+    .end-0 {
+        justify-content: center;
+   bottom: 10%;
+ display: none;
+    }
+    .cloud-img  {
+        display: none;
+    }
+    .mt-sm-10 {
+        margin-top: 25px;
+    }
+}
+@media screen  and (min-width:992px){
+    .mt-sm-5 {
+        margin-top: 5px;
+    }
+   .core-value .align-center {
+text-align: center !important;
+    }
+    .events .text-sm-center {
+        text-align: center;
+    }
+}
