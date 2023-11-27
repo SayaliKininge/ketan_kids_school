@@ -235,13 +235,13 @@ p {
 }
 
 .outer-crc {
-    padding: 30px;
+    padding: 15px;
     background-color: #EA512E;
     border-radius: 50%;
 }
 
 .inner-crc {
-    padding: 25px;
+    padding: 10px;
     background-color: #F5890D;
     border-radius: 50%;
 }
@@ -316,16 +316,7 @@ p {
     color: #EA512E;
 }
 
-/* .card1:hover img {
-    background: #000;
-    width: auto;
-    transform: scale(0.9);
-    transition: 0.5s;
-} */
-
-/* classes section ends */
-
-/* value section strt */
+/* core value section */
 .core-value {
     height: auto;
    
@@ -355,6 +346,8 @@ p {
     border-radius: 50%;
     transition: 1s;
     text-align: center;
+    outline: 2px solid rgb(247, 153, 153);
+    outline-offset: 5px;
 }
 
 .bg-orghover:hover .no-box2 {
@@ -372,7 +365,11 @@ p {
     transition: 0.5s;
     z-index: 1;
 }
+.teacher-img img {
+     border-radius: 50%;
+    border: 4px solid #F5890D;
 
+}
 .social-list {
     left: 25%;
     bottom: 25px;
@@ -474,7 +471,7 @@ p {
     background-color: #091629;
 }
 .footer-img-gallery li:hover img {
-    transform: rotate(1deg ) scale(1.1);
+    transform: rotate(1deg) scale(1.1);
     transition: 1s all linear ease-in-out;
 }
 .arrow-top {

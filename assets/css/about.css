@@ -1,0 +1,45 @@
+
+.bg-skyblue {
+    background-color:rgba(176, 239, 238, 0.711) ;
+}
+.bg-yellow2 {
+    background-color: #D7A050;
+}
+.bg-violet {
+    background-color: #684B82;
+}
+.bg-oran {
+    background-color:#EA512E ;
+}
+a {
+    color: #fff;
+}
+.bannerabout {
+    height: 60vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/aboutimg/aboutbg.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.bannerabout .border-left {
+    border-left: 1px solid #EA512E;
+}
+
+.aboutus .no-box {
+    background-color: #EA512E;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+
+.student-info {
+    height: auto;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/aboutimg/fun-facts-bg.jpg) no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+}
